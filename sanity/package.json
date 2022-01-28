@@ -1,0 +1,29 @@
+{
+  "name": "allaroundscorer",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);",
+  "main": "package.json",
+  "author": "Leon Scherer <scherer-leon@web.de>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.21.4",
+    "@sanity/core": "^2.21.4",
+    "@sanity/default-layout": "^2.21.4",
+    "@sanity/default-login": "^2.21.4",
+    "@sanity/desk-tool": "^2.21.4",
+    "@sanity/vision": "^2.21.4",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "sanity": "^2.20.0",
+    "styled-components": "^5.2.0"
+  }
+}
