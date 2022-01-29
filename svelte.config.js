@@ -8,11 +8,28 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		//adapter: adapter({}),
+		// setup path for github pages
+		paths: {
+			//base: import.meta.env.DEV ? '' : '/all-around-scorer-svelte',
+		},
+
+		// adapter-static
+		adapter: adapter(),
 
 		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#svelte'
-	}
+		target: '#svelte',
+
+		router: false,
+		hydrate: false,
+
+		vite: {
+			resolve: {
+				alias: {
+					"src": "./src",
+				},
+			},
+		},
+	},
 };
 
 export default config;

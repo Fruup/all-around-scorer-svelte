@@ -23,7 +23,7 @@ devDependencies:
   '@sanity/block-content-to-html': 2.0.0
   '@sanity/client': 2.23.2
   '@sveltejs/adapter-static': 1.0.0-next.26
-  '@sveltejs/kit': 1.0.0-next.245_sass@1.49.0+svelte@3.46.3
+  '@sveltejs/kit': 1.0.0-next.247_sass@1.49.0+svelte@3.46.3
   '@typescript-eslint/eslint-plugin': 4.33.0_959502c0ea240e86d4d2ba8b8c0fee45
   '@typescript-eslint/parser': 4.33.0_eslint@7.32.0+typescript@4.5.5
   eslint: 7.32.0
@@ -190,8 +190,8 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.245_sass@1.49.0+svelte@3.46.3:
-    resolution: {integrity: sha512-tvgzGA0nLsYNoCHfC0SCRbWWdLY4xP6Uyv3oy+J+5VOUOhzOjh3xiP6LKvF4PLf0t3lJXybcVWzi8vqU3kfjug==}
+  /@sveltejs/kit/1.0.0-next.247_sass@1.49.0+svelte@3.46.3:
+    resolution: {integrity: sha512-8xoSxJ3+Zid4y53dXd9lTLp94heYV1qmCEN6K2sjkFNELy2VaQ0/AWj2z0HWMnUQ2/iojb63OQvdXC46NaV+sQ==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
